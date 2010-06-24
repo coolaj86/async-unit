@@ -75,16 +75,3 @@
         JSUnit.runTests = runTests;
         window.JSUnit = JSUnit;
       }());
-
-/*
-      // Example Test
-      (function() {
-        AjaxUnit.addTest('My Test',function() {
-          this.complete(true);
-        }, 1000);
-        AjaxUnit.addTest('My Other Test',function() {
-          this.complete(true);
-        }, 1000);
-        AjaxUnit.runTests();
-      }());
-*/
