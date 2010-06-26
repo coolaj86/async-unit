@@ -34,4 +34,7 @@ As each test completes it will pass or fail itself.
 TODO
 ====
 
-Remove trivial jQuery dependency
+* Remove trivial jQuery dependency
+* Practice my friend's XUnit Kata again
+* Write tests to test the framework itself
+* Add fixtures
