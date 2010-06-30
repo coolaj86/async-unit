@@ -71,7 +71,12 @@
               }(item));
               $("<div id='"+item.lname+"'></div>").appendTo("#ajax_unit_test").html('"'+item.name+'" running...');
               $('#aut_num_tests').html(num_tests + ' tests running...');
-              item.func();
+              try {
+                item.func();
+              } catch(ignore) {
+                clearTimeout(item.timeout);
+                item.complete(false);
+              }
           };
         });};
         
