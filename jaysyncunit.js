@@ -29,7 +29,7 @@
             if (true == item.result) {
               num_passed += 1;
             }
-            status = status && "Passed" || "Failed"
+            status = status && "Passed" || "<span style='color:red;'>Failed</span>"
             
             //alert('passed: ' + JSON.stringify(item));
             $('#'+item.lname).html('"'+item.name+'" ' + status);
@@ -71,8 +71,8 @@
               }(item));
               $("<div id='"+item.lname+"'></div>").appendTo("#ajax_unit_test").html('"'+item.name+'" running...');
               $('#aut_num_tests').html(num_tests + ' tests running...');
-              try {
                 item.func();
+              try {
               } catch(ignore) {
                 clearTimeout(item.timeout);
                 item.complete(false);
