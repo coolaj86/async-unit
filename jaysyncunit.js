@@ -69,7 +69,7 @@
                   local_item.complete(false);
                 }, item.wait);
               }(item));
-              $("<div id='"+item.lname+"'></div>").appendTo("#ajax_unit_test").html('"'+item.name+'" running...');
+              $("<div id='"+item.lname+"'></div>").appendTo("#ajax_unit_test").html('"'+item.name+'"<span style=\'color:orange\'> running...</span>');
               $('#aut_num_tests').html(num_tests + ' tests running...');
                 item.func();
               try {
