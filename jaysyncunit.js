@@ -29,7 +29,7 @@
             if (true == item.result) {
               num_passed += 1;
             }
-            status = status && "Passed" || "<span style='color:red;'>Failed</span>"
+            status = status && "<span style='color:green;'>Passed</span>" || "<span style='color:red;'>Failed</span>"
             
             //alert('passed: ' + JSON.stringify(item));
             $('#'+item.lname).html('"'+item.name+'" ' + status);
