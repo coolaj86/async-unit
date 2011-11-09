@@ -1,0 +1,19 @@
+{
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.info/)",
+  "name": "async-unit",
+  "description": "A minimal asynchronous test framework for Node.JS / Ender",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coolaj86/async-unit.git"
+  },
+  "main": "lib/index",
+  "scripts": {
+    "test": "served 3430"
+  },
+  "engines": {
+    "node": "~0.4.8"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
