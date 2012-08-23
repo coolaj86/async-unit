@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/coolaj86/async-unit.png)](http://travis-ci.org/coolaj86/async-unit)
 AsyncUnit
 ===
 
